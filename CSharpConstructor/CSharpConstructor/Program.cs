@@ -10,7 +10,14 @@ namespace CSharpConstructor
     {
         static void Main(string[] args)
         {
-            var customer = new Customer();
+            var customer = new Customer();//here we have three overloads of customer 
+            customer.Id = 1;
+            customer.Name = "Maharoz";
+
+            //var order = new Order();
+            //customer.Orders = new List<Order>();//without this line programe will give null reference exeption
+            //customer.Orders.Add(order);
+
             //if you debugg following lines will execute first as 
             //default constructor hits
             Console.WriteLine(customer.Id);
