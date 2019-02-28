@@ -52,22 +52,22 @@ namespace Delegates_Intro
                 Salary = 8000,
                 Experience = 3
             });
-            IsPromotable isPromotable = new IsPromotable(Promote);
+            //IsPromotable isPromotable = new IsPromotable(Promote);
 
-            Employee.PromoteEmployee(empList,isPromotable);
+            Employee.PromoteEmployee(empList,emp => emp.Experience >=5);
         }
 
-        public static bool Promote(Employee emp)
-        {
-            if (emp.Experience > 5)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
+        //public static bool Promote(Employee emp)
+        //{
+        //    if (emp.Experience > 5)
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+        //}
         
     }
     public delegate bool IsPromotable(Employee empl);
