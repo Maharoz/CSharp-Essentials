@@ -10,17 +10,27 @@ namespace Properties
         {
             private int _id;
             private string _Name;
-            private int _PassMark = 35;
+            private int _passMark = 35;
 
-            public void setName(string Name)
+            public int PassMark
             {
-                if (string.IsNullOrEmpty(Name))
+                get
+                {
+                    return this._passMark;
+                }
+            }
+
+        public string Name
+        {
+            set { 
+                if (string.IsNullOrEmpty(value))
                 {
                     throw new Exception("Name cannot be null or empty");
             }
-            }
 
-            public string getName()
+                this._Name = value;
+            }
+            get
             {
                 if (string.IsNullOrEmpty(this._Name))
                 {
@@ -31,31 +41,35 @@ namespace Properties
                     return this._Name;
                 }
             }
+        }
 
-            public void setId(int Id)
+         
+
+            public int Id
             {
-                if (_id < 0)
+            set { 
+                if (value <= 0)
                 {
                     throw new Exception("Student id cannot be negative");
                 }
 
-                this._id = Id;
+                this._id = value;
             }
+            get { return this._id; }
+        }
 
-            public int getId()
-            {
-                return this._id;
-            }
+           
         }
     public class Program
     {
         static void Main(string[] args)
         {
             Student c1 = new Student();
-            c1.setId(101);
-            //c1.setName(null);
-            Console.WriteLine("Student id is {0}",c1.getId());
-            Console.WriteLine("Student name is {0}", c1.getName());
+            c1.Id = 101;
+            c1.Name = "Maharoz";
+          
+            Console.WriteLine("Student id is {0}",c1.Id);
+            
         }
     }
 }
