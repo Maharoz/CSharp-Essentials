@@ -11,56 +11,23 @@ namespace Enum
     {
         static void Main(string[] args)
         {
-            Customer[] customer = new Customer[3];
-
-            customer[0] = new Customer
+            short[] Values = (short[]) System.Enum.GetValues(typeof(Gender));
+            foreach (short value in Values)
             {
-                Name = "Maharoz",
-                Gender = Gender.Male
-
-            };
-            customer[1] = new Customer
-            {
-                Name = "Maharoz Mugdho",
-                Gender = Gender.Female
-
-            };
-            customer[2] = new Customer
-            {
-                Name = "Maharoz Alam",
-                Gender = Gender.Unknown
-
-            };
-        }
-
-        public static string GetGender(Gender gender)
-        {
-            switch(gender)
-            {
-                case Gender.Male:
-                    return "Male";
-                case Gender.Female:
-                    return "Female";
-                case Gender.Unknown:
-                    return "Unknown";
-                default:
-                    return "Invalid Data";
+                Console.WriteLine(value);
             }
-           
-
         }
+
+
     }
 
-    public enum Gender
+    public enum Gender:short
     {
-        Unknown,
-        Male,
-        Female
+        Unknown = 1,
+        Male =5,
+        Female=23
     }
 
-    public class Customer
-    {
-        public string Name { get; set; }
-        public Gender Gender { get; set; }
-    }
 }
+
+  
