@@ -8,20 +8,26 @@ namespace AccessModifier
 {
     public class Customer
     {
-        private int _id;
+        protected int ID;
 
-        public int ID
+    }
+
+    public class CoorporateCustomer : Customer
+    {
+        public void printId()
         {
-            get { return _id; }
-            set { _id = value; }
+            CoorporateCustomer cc = new CoorporateCustomer();
+            cc.ID = 100;
+            
         }
-
     }
     class Program
     {
         static void Main(string[] args)
         {
             Customer c1 = new Customer();
+
+            //This is prohibited because _id is private
             //Console.WriteLine(c1._id);
         }
     }
