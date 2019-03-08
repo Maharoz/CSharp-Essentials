@@ -25,6 +25,7 @@ namespace Interface
         static void Main(string[] args)
         {
             Program p = new Program();
+            //Implementing Interface
             p.InterfaceMethod();
         }
     }
