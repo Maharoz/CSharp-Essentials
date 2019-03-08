@@ -35,7 +35,7 @@ namespace Inheritence
  }
 
     //multilevel inheritence
-    public class A : PartTimeEmployee
+    public class MultiLevel : PartTimeEmployee
     {
 
     }
@@ -55,7 +55,7 @@ namespace Inheritence
             PTE.HourlyRate = 1000;
             PTE.PrintFullName();
 
-            A A1 = new A();
+            MultiLevel A1 = new MultiLevel();
             A1.FirstName = "xyz";
             A1.LastName = "abc";
             A1.PrintFullName();
