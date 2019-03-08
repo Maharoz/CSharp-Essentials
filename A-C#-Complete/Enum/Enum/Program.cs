@@ -12,6 +12,8 @@ namespace Enum
         static void Main(string[] args)
         {
             short[] Values = (short[]) System.Enum.GetValues(typeof(Gender));
+
+            //Printing the value of Enum
             foreach (short value in Values)
             {
                 Console.WriteLine(value);
