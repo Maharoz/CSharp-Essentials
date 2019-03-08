@@ -8,7 +8,7 @@ namespace AssemblyOne
 {
     public class AssemblyOneClassI
     {
-        internal int ID = 101;
+       protected internal int ID = 101;
     }
 
     public class AssemblyOneClassII

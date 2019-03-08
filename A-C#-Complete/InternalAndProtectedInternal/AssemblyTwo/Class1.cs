@@ -7,14 +7,17 @@ using AssemblyOne;
 
 namespace AssemblyTwo
 {
-    public class AssemblyTwoClassI
+    public class AssemblyTwoClassI : AssemblyOneClassI
     {
         public void Print()
         {
+            //ID is declared as protected internal
+            //so it is accessible from anywhere by deriving that class
             AssemblyOneClassI A1 = new AssemblyOneClassI();
-            //BELOW LINE IS ILLEGAL BECAUSE ID 
-            //IS INTERNAL PROPERTY OF PROJECT AssemblyOne
-            //A1.ID = 101;
+            base.ID = 101;
+
+            AssemblyTwoClassI A2 = new AssemblyTwoClassI();
+            A2.ID = 101;
         }
     }
 }
