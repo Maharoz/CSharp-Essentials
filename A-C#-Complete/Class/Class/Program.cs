@@ -35,6 +35,7 @@ namespace Class
     {
         static void Main(string[] args)
         {
+        //Constructing object of customer
          Customer C1 = new Customer();
          C1.PrintFullName();
          //constructor overloading
