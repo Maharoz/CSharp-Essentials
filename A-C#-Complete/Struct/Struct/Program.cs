@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Struct
 {
+    //Struct Start with Struct key word
     public struct Customer
     {
         private int _id;
