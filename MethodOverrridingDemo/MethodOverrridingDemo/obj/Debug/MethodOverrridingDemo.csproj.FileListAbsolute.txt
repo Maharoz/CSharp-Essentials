@@ -1,6 +1,0 @@
-C:\Users\USER\Documents\Visual Studio 2015\Projects\CSharpPractice\MethodOverrridingDemo\MethodOverrridingDemo\bin\Debug\MethodOverrridingDemo.exe.config
-C:\Users\USER\Documents\Visual Studio 2015\Projects\CSharpPractice\MethodOverrridingDemo\MethodOverrridingDemo\bin\Debug\MethodOverrridingDemo.exe
-C:\Users\USER\Documents\Visual Studio 2015\Projects\CSharpPractice\MethodOverrridingDemo\MethodOverrridingDemo\bin\Debug\MethodOverrridingDemo.pdb
-C:\Users\USER\Documents\Visual Studio 2015\Projects\CSharpPractice\MethodOverrridingDemo\MethodOverrridingDemo\obj\Debug\MethodOverrridingDemo.csprojResolveAssemblyReference.cache
-C:\Users\USER\Documents\Visual Studio 2015\Projects\CSharpPractice\MethodOverrridingDemo\MethodOverrridingDemo\obj\Debug\MethodOverrridingDemo.exe
-C:\Users\USER\Documents\Visual Studio 2015\Projects\CSharpPractice\MethodOverrridingDemo\MethodOverrridingDemo\obj\Debug\MethodOverrridingDemo.pdb
