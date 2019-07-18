@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamics", "Dynamics\Dynamics.csproj", "{D0B9A1DC-23B1-4ECB-A5FA-FD8A4539E92C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0B9A1DC-23B1-4ECB-A5FA-FD8A4539E92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B9A1DC-23B1-4ECB-A5FA-FD8A4539E92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B9A1DC-23B1-4ECB-A5FA-FD8A4539E92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B9A1DC-23B1-4ECB-A5FA-FD8A4539E92C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81CC6F9E-9392-44AA-90B3-6F18BDA81949}
+	EndGlobalSection
+EndGlobal

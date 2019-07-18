@@ -24,6 +24,7 @@ namespace ParameterizeThreadStartDelegate
     {
         public void PrintNumber(object target)
         {
+
             int number = 0;
             if(int.TryParse(target.ToString(), out number))
             {
