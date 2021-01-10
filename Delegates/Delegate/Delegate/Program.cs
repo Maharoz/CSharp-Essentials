@@ -34,27 +34,44 @@ namespace Delegate
                 string temp = "";
                 int i, j;
                 Console.WriteLine("Reversing string");
-                for (j = 0, i = s.Length - 1; i >= 0; i--, j++)
+                for ( i = s.Length - 1; i >= 0; i--)
                     temp += s[i];
                 return temp;
             }
         static void Main(string[] args)
         {
-            StrMod strOp = new StrMod(ReplaceSpaces);
+            //StrMod strOp = new StrMod(ReplaceSpaces);
+            //string str;
+
+            //str = strOp("This is test");
+            //Console.WriteLine("Resulting string: " +str);
+            //Console.WriteLine();
+
+            //strOp =new StrMod(Removespace);
+            //str = strOp("This is test");
+            //Console.WriteLine("Resulting string: " + str);
+            //Console.WriteLine();
+
+            //strOp = new StrMod(reverse);
+            //str = strOp("This is test");
+            //Console.WriteLine("Resulting string: " + str);
+
+            StrMod strOp = ReplaceSpaces;
             string str;
 
             str = strOp("This is test");
-            Console.WriteLine("Resulting string: " +str);
+            Console.WriteLine("Resulting string: " + str);
             Console.WriteLine();
 
-            strOp =new StrMod(Removespace);
+            strOp = Removespace;
             str = strOp("This is test");
             Console.WriteLine("Resulting string: " + str);
             Console.WriteLine();
 
-            strOp = new StrMod(reverse);
+            strOp = reverse;
             str = strOp("This is test");
             Console.WriteLine("Resulting string: " + str);
+
 
         }
     }
