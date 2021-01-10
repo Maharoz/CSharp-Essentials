@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingInstanceMethodAsDelegate", "UsingInstanceMethodAsDelegate\UsingInstanceMethodAsDelegate.csproj", "{84C727A7-39BC-4D2A-88E1-EFBA41E1AAD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C727A7-39BC-4D2A-88E1-EFBA41E1AAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C727A7-39BC-4D2A-88E1-EFBA41E1AAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C727A7-39BC-4D2A-88E1-EFBA41E1AAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C727A7-39BC-4D2A-88E1-EFBA41E1AAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D453FC21-C084-40FE-9D2F-A51D23018019}
+	EndGlobalSection
+EndGlobal
