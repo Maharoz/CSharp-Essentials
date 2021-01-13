@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnAValueFromAnonymousFunction", "ReturnAValueFromAnonymousFunction\ReturnAValueFromAnonymousFunction.csproj", "{F284BA6C-31C8-4684-BDBA-C3AF70EBB764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F284BA6C-31C8-4684-BDBA-C3AF70EBB764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F284BA6C-31C8-4684-BDBA-C3AF70EBB764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F284BA6C-31C8-4684-BDBA-C3AF70EBB764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F284BA6C-31C8-4684-BDBA-C3AF70EBB764}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C96F6545-6ABC-4855-B89A-AB204B4CAF38}
+	EndGlobalSection
+EndGlobal
