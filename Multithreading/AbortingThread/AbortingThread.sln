@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbortingThread", "AbortingThread\AbortingThread.csproj", "{661B02AC-9E24-40B7-8DEA-0B232C17EA97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{661B02AC-9E24-40B7-8DEA-0B232C17EA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661B02AC-9E24-40B7-8DEA-0B232C17EA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661B02AC-9E24-40B7-8DEA-0B232C17EA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661B02AC-9E24-40B7-8DEA-0B232C17EA97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3882D3B4-8E8A-4AD5-9BEC-374641F111B5}
+	EndGlobalSection
+EndGlobal
