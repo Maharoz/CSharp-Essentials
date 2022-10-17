@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+Thread/SimpleThreadImplementation/SimpleThreadImplementation.sln
+Thread/SimpleThreadImplementation/SimpleThreadImplementation/SimpleThreadImplementation.csproj
