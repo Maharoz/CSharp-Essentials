@@ -242,3 +242,5 @@ ModelManifest.xml
 .fake/
 Thread/SimpleThreadImplementation/SimpleThreadImplementation.sln
 Thread/SimpleThreadImplementation/SimpleThreadImplementation/SimpleThreadImplementation.csproj
+Thread/ThreadClassCreation/ThreadClassCreation/ThreadClassCreation.csproj
+Thread/ThreadClassCreation/ThreadClassCreation.sln
